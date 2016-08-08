@@ -1,0 +1,60 @@
+/*    Happy Clients    */
+.sectionHeader, .sectionSubHeader{
+  text-transform: uppercase;
+}
+.sectionHeader{
+  font-size:25px;
+  font-weight: 700;
+  line-style:30px;
+  margin-top: 0;
+}
+.sectionSubHeader{
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  background-color: $bgColorFourth;
+  display: inline-block;
+  color: white;
+  padding: 2px;
+
+}
+
+#happyClients{
+  background-color: $bgColorFourth;
+  font-family:Tahoma;
+  padding: 99px 0;
+  .quoteIcon{
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .sectionSubHeader{
+    background-color: $bgColorThird;
+  }
+  .col-md-8{
+    p{
+      font-size: 15px;
+      font-style: italic;
+      line-height: 28px;
+    }
+  }
+  .col-md-12{
+    p{
+      font-size: 14px;
+      line-height: 20px;
+      &:first-child{
+        font-weight: 400;
+      }
+      &:last-child{
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+    }
+    img{
+      padding: 0 3px;
+      margin-top: -8px;
+    }
+  }
+
+}

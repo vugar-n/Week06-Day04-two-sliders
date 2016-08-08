@@ -1,0 +1,27 @@
+.clearMargin{
+    margin: 0;
+}
+.clearPadding{
+    padding: 0;
+}
+
+.sectionHeader{
+  color:#23282f;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  h2{
+    font: 700 30px / 24px Tahoma;
+  }
+  h4{
+    font: 400 18px / 24px Tahoma;
+    letter-spacing: 1px;
+  }
+}
+.button{
+  padding: 13px 22px 14px 22px;
+  font: 400 14.5px / 11px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 22px;
+  border: 0;
+}

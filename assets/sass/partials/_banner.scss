@@ -1,0 +1,60 @@
+/*    Banner    */
+#banner{
+  padding-top: 285px;
+  padding-bottom: 32px;
+  background-image: url(../../images/4.jpg);
+  .subscription{
+    background-color: rgba(13, 14, 18, 0.6);
+    padding-left: 26px;
+    .btn{
+      margin-top: 19px;
+      padding-left: 36px;
+      padding-right: 36px;
+      margin-bottom: 24px;
+      border: none;
+
+    }
+
+  }
+  button[name="next"], button[name="prev"]{
+    padding: 10px 25px;
+    color: white;
+    background-color:rgba(13, 14, 18, 0.6);
+    border: none;
+    margin-bottom: 10px;
+  }
+  .sectionSubHeader{
+    font-size: 12px;
+    background-color: $bgColorFourth;
+    margin-top: 16px;
+  }
+  .sectionHeader{
+    color: white;
+    font-size: 22px;
+  }
+
+  h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    margin-top: 5px;
+  }
+  h3{
+    font-weight: 400;
+    color: white;
+  }
+  button[name="contactUs"]{
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    border: none;
+    border-radius: 1px;
+    background-color: $bgColorFifth;
+    color: white;
+    margin-bottom: 179px;
+
+  }
+
+}

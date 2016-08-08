@@ -1,0 +1,25 @@
+/*    About Us     */
+#aboutUs{
+  padding-top: 90px;
+  padding-bottom: 81px;
+
+  .thumbnail{
+    padding: 0;
+    border: none;
+
+
+
+
+    }
+  }
+  .col-md-6{
+    &:last-child{
+      padding-top: 40px;
+  }
+
+  button{
+    margin-top: 37px;
+    padding:13px 22px ;
+    line-height: 15px;
+  }
+}

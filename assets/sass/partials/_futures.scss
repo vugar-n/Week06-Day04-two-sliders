@@ -1,0 +1,37 @@
+/*   Futures   */
+
+#futures{
+  background-color: $bgColorFirst;
+  padding-top: 76px;
+  padding-bottom: 78px;
+
+  h3{
+    font: 500 20px / 24px Tahoma;
+    margin-bottom: 5px;
+    margin-top: 26px;
+  }
+  p{
+    font: 400 14px / 24px Tahoma;
+    margin-bottom: 26px;
+  }
+  img{
+    padding-left: 14px;
+    padding-top: 34px;
+
+  }
+  .col-md-1{
+    &:nth-child(3)>img{
+      padding-left: 10px;
+    }
+  }
+  .btn{
+    margin-top: 41px;
+    margin-bottom: 20px;
+  }
+  .sectionSubHeader{
+    background-color: $bgColorFourth;
+    padding: 1px;
+    line-height: 18px;
+
+  }
+}
